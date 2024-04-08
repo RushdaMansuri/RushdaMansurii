@@ -2,7 +2,7 @@ export const personalData = {
   name: "Rushda Mansuri",
   profile: '/profile.png',
   designation: "Full Stack Developer",
-  description: "My name is ABU SAID. I am a professional and enthusiastic programmer in my daily life. I am a quick learner with a self-learning attitude. I love to learn and explore new technologies and am passionate about problem-solving. I love almost all the stacks of web application development and love to make the web more open to the world. My core skill is based on JavaScript and I love to do most of the things using JavaScript. I am available for any kind of job opportunity that suits my skills and interests.",
+  description: "Hello! I'm a recent Pace University graduate with a Master's in Computer Science. With 5 years experince as a full-stack developer, I've developed a deep understanding of coding and software development. My expertise lies in a diverse range of technologies including C#, Angular, React, HTML, CSS, JavaScript, NodeJS, Java, and database systems like RDBMS/SQL, MySQL, MongoDB, and TOAD. This experience has honed my adaptability and proficiency in different tech environments. I've engaged in all stages of the software development lifecycle, from planning and design to testing. This comprehensive experience has shaped my detail-oriented, creative, and solution-focused approach to software engineering.",
   email: 'mansurirushda7@gmail.com',
   phone: '+1 (848)-309-4128',
   address: 'NYC, New York, USA',
