@@ -6,29 +6,29 @@ import travel from '/public/image/travel.jpg';
 export const projectsData = [
     {
         id: 1,
-        name: 'AI Powered Financial App',
-        description: "Me and my team built an AI-powered financial mobile application. I have developed API using Express, Typescript, OpenAI, AWS, and MongoDB. Used OTP via AWS SES, Google, and Facebook for the authentication system. Built AI assistants using OpenAI's latest model and trained using our dataset. Voice messages are converted to text using AWS Transcribe. The app fetches data from Google Sheets and generates a PDF term sheet, sent via AWS SES.",
-        tools: ['Express', 'MongoDB', 'OpenAI API', 'AWS SES', 'AWS S3', 'Node Mailer', 'Joi', 'Puppeteer', 'EC2', 'PM2', 'Nginx'],
-        role: 'Backend Developer',
-        code: '',
+        name: 'MaidEase',
+        description: "There are numerous platforms that provide customers individual household services, but they are not always available. Even if some services are now in operation, they lack a website or other online platform to advertise their offerings. Therefore, MaidEase enters the picture to address this significant issue. Anyone can use this program, whether they are a working professional or a frequent traveler, as the consumer receives all household services on one platform. Additionally, we offer a significant platform for service providers to list their company and draw in new clients. Many people's life will be made easier by this application. The customer will receive the services he wants, and the service provider will continue to add new clients. If this project is unsuccessful in any way and is not completed, the median between customers and household service providers will not be determined. Customers will always be looking for these services nearby, so the service provider won't see an increase in business.",
+        tools: ['MySQL', 'ReactJS', 'JavaScript', 'NodeJS', 'AWS', 'ExpressJS', 'Jenkins', 'JIRA'],
+        role: 'Full Stack Developer',
+        code: 'https://github.com/RushdaMansuri/Maid-Ease',
         demo: '',
         image: crefin,
     },
     {
         id: 2,
-        name: 'Travel Agency App',
-        description: 'I have designed and developed a full-stack web app for 2Expedition, a travel agency in Armenia. I created the UI using NextJS, Typescript, MUI, TailwindCSS, Google Maps, Sun-Editor, and React Slick. The app supports multiple languages and currencies. I developed the API using NestJS, Typescript, MySQL, TypeORM, AWS, and Nodemailer. I deployed the front-end app to AWS Amplify and the back-end app to AWS EC2.',
-        tools: ['NextJS', 'Tailwind CSS', "Google Maps", "NestJS", "TypeScript", "MySQL", "AWS S3", "Sun-Editor", "Gmail Passkey"],
+        name: 'Movie Recommendation App',
+        description: "This app is a comprehensive movie recommendation platform, akin to IMDB, offering users an array of features including movie ratings and detailed character insights. It enhances user experience by incorporating essential functionalities such as login and registration processes, supported by the robust Google authentication system. Additionally, the app excels in its search capabilities, allowing users to effortlessly find specific movies.",
+        tools: ['ReactJS', 'JavaScript', "Ionic Framework", "Github", "Firebase", "CSS"],
         role: 'Full Stack Developer',
-        code: '',
-        demo: '',
+        code: 'https://github.com/RushdaMansuri/Movie-Recommendation-App',
+        demo: 'https://final-project-f3913.web.app/login',
         image: travel,
     },
     {
         id: 3,
-        name: 'AI Powered Real Estate',
-        description: 'My team built an AI-based real estate app using Replicate API and OpenAI. We used Express, Typescript, OpenAI, Replicate, Stripe, and Mongoose to develop the API. We utilized NextJS, Formik, TailwindCSS, and other npm libraries for the UI. We have trained multiple AI assistants using the latest GPT model and integrated Replicate API for image processing. We added role-based auth, subscription plans, Cron job scheduling, and payment integration with Stripe.',
-        tools: ['React', 'Bootstrap', 'SCSS', 'Stripe', 'Express', 'TypeScript', 'MongoDB', 'Azure Blob', 'OpenAI API', 'Replicate AI', 'Cronjob', 'JWT'],
+        name: 'ConnectOne',
+        description: "ConnectOne is a versatile mobile application designed as a comprehensive platform for showcasing various NGOs. It serves as a one-stop solution catering to two key audiences: investors seeking to financially support NGOs, and individuals eager to volunteer with nearby organizations. This cross-platform app simplifies the process of connecting with NGOs, streamlining both donations and volunteer engagements. Whether you're looking to contribute funds or offer your time and skills, ConnectOne offers an efficient and user-friendly way to engage with a wide range of non-profit organizations, enhancing community involvement and support.",
+        tools: ['ReactNative', 'MySQL', 'NodeJS'],
         code: '',
         role: 'Full Stack Developer',
         demo: '',
@@ -36,27 +36,12 @@ export const projectsData = [
     },
     {
         id: 4,
-        name: 'Newsroom Management',
-        description: "My team and I developed a newspaper management dashboard application called Newsroom Management. As a front-end developer, I worked on creating the dashboard using NextJS, Material UI, Redux, Calendar, and other necessary npm libraries. We used React Redux to manage the application's state and React-hook-form and Sun Editor to handle forms.",
-        tools: ['NextJS', 'Material UI', 'Redux', 'Sun Editor', "Calendar"],
+        name: 'Online Examination Portal',
+        description:"This portal is a versatile online platform designed for use in colleges, schools, and DMVs. It offers a dual functionality: enabling test-takers to complete exams and view their results, and allowing examiners to administer tests and manage results. This efficient system streamlines the testing process, making it easier for students and candidates to access and complete their assessments, while also providing educators and officials with robust tools for exam creation, delivery, and result management. Its user-friendly interface ensures a seamless experience for all users, making it an ideal solution for educational and regulatory testing needs.",
+        tools: ['MSSQL', 'C#', '.NET Framework 4.5'],
         code: '',
         demo: '',
         image: ayla,
         role: 'Full Stack Developer',
     }
 ];
-
-
-// Do not remove any property.
-// Leave it blank instead as shown below
-
-// {
-//     id: 1,
-//     name: '',
-//     description: "",
-//     tools: [],
-//     role: '',
-//     code: '',
-//     demo: '',
-//     image: crefin,
-// },
